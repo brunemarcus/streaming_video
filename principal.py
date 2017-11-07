@@ -1,17 +1,10 @@
-#filmes
+# -*- coding: utf-8 -*-
+#Main
+import interface_usuario
+import lista_filmes
 
-import interface_usuario as ui
-import admnistrador as adm
-import menu_principal as men
+#Cadastro Usuário
+user = interface_usuario.entrada_usuario()
 
-def main():
-
-    
-main()
-
-
-
-Alessandre Porta jr 31747027
-Marcus 31747175
-Henrique Silveira 
-
+#Lista Filmes
+filmes = lista_filmes.movies()
