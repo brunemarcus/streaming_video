@@ -1,6 +1,7 @@
 #menu_filmes
-
-filmes = ['Homem-aranha', 'Vingadores', 'Senhor dos aneis', 'homem de ferro',
+# -*- coding: utf-8 -*-
+def movies():
+    filmes = ['Homem-aranha', 'Vingadores', 'Senhor dos aneis', 'homem de ferro',
           'Matrix', 'Os caça fantamas', 'Annabelle', 'Invocação do mal',
           'Animais noturnos' , 'It: A coisa', 'Liga da Justiça', 'Batman Vs Superman' ,
           'Questão de tempo', 'Jogo Perigoso', '1922','O nome da Rosa', 'O exorcista',
@@ -10,7 +11,8 @@ filmes = ['Homem-aranha', 'Vingadores', 'Senhor dos aneis', 'homem de ferro',
           'Capitão Fantastico', 'Fantastica fabrica de chocolate', 'Felicidade não se compra',
           'Passageiros', 'Rogue one', 'Star wars', 'Star Trek', 'Transformers']
 
-print("Escolha um filme de nosso Catálogo: ")
-for i in enumerate(filmes):
-    print(i)    
+    print("Escolha um filme de nosso Catálogo: ")
+
+    for i in enumerate(filmes):
+        print(i)
 
